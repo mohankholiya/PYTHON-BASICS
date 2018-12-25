@@ -1,0 +1,65 @@
+/Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+Mohans-MacBook-Air:~ mohankholiya$ /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+Each person owes $21.2425
+Mohans-MacBook-Air:~ mohankholiya$ python
+Python 2.7.10 (default, Oct  6 2017, 22:29:07)
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import math
+>>> math.ceil(21.24)
+22.0
+>>>
+
+/Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+Mohans-MacBook-Air:~ mohankholiya$ /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+Each person owes $21.2425
+Mohans-MacBook-Air:~ mohankholiya$ cd ~/desktop/
+Mohans-MacBook-Air:desktop mohankholiya$ cd hello
+Mohans-MacBook-Air:hello mohankholiya$ python helllo.py
+Each person owes $21.2425
+Mohans-MacBook-Air:hello mohankholiya$ python helllo.py
+Each person owes $22.0
+Mohans-MacBook-Air:hello mohankholiya$
+
+
+
+/Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+Mohans-MacBook-Air:~ mohankholiya$ /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+Each person owes $21.2425
+Mohans-MacBook-Air:~ mohankholiya$ cd ~/desktop/
+Mohans-MacBook-Air:desktop mohankholiya$ cd hello
+Mohans-MacBook-Air:hello mohankholiya$ python helllo.py
+Each person owes $21.2425
+Mohans-MacBook-Air:hello mohankholiya$ python helllo.py
+Each person owes $22.0
+Mohans-MacBook-Air:hello mohankholiya$ /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mohankholiya/Desktop/hello/helllo.py
+What is the total?  100
+How many people?  5
+Each person owes $20
+Mohans-MacBook-Air:hello mohankholiya$
+
+
+Last login: Sun Dec 23 12:35:14 on ttys000
+Mohans-MacBook-Air:~ mohankholiya$ cd ~/desktop/
+Mohans-MacBook-Air:desktop mohankholiya$ cd hello
+Mohans-MacBook-Air:hello mohankholiya$ python exceptions.py
+What is the total?  too much
+Oh no! That's not a valid value. Try again...
+Traceback (most recent call last):
+  File "exceptions.py", line 14, in <module>
+    amount_due = split_check(total_due, number_of_people)
+NameError: name 'total_due' is not defined
+Mohans-MacBook-Air:hello mohankholiya$ python exceptions.py
+What is the total?  too much
+Oh no! That's not a valid value. Try again...
+Mohans-MacBook-Air:hello mohankholiya$ 
+
+Mohans-MacBook-Air:hello mohankholiya$ 
+Mohans-MacBook-Air:hello mohankholiya$ 
+Mohans-MacBook-Air:hello mohankholiya$ python exceptions.py
+What is the total?  20
+How many people?  0
+Oh no! That's not a valid value. Try again...
+(More than 1 person is required to split the check)
+Mohans-MacBook-Air:hello mohankholiya$ 
+
